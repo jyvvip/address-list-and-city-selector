@@ -171,7 +171,6 @@ public class SearchActivity extends Activity {
                     ViewGroup.MarginLayoutParams params = (ViewGroup.MarginLayoutParams) title_ll.getLayoutParams();
                     params.topMargin = 0;
                     title_ll.setLayoutParams(params);
-//                    title_tv.setText(adapter.getHeaderText(firstVisibleItem));
                 }
 
                 int section = adapter.getSectionForPosition(firstVisibleItem);

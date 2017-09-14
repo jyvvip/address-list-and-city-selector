@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical">
 
     <FrameLayout
@@ -10,8 +10,8 @@
 
         <ListView
             android:id="@+id/country_lvcountry"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
             android:divider="@color/listview_driver"
             android:dividerHeight="1px" />
@@ -30,22 +30,22 @@
         <com.stephen.curry.memesou.widget.SideBar
             android:id="@+id/sidrbar"
             android:layout_width="30.0dip"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="right|center" />
     </FrameLayout>
 
 
     <LinearLayout
         android:id="@+id/title_layout"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="30dp"
         android:layout_alignParentTop="true"
         android:background="#303030">
 
         <TextView
             android:id="@+id/title"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_weight="1.0"
             android:background="#E0E0E0"
             android:paddingBottom="5dip"
